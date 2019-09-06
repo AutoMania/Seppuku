@@ -1,0 +1,136 @@
+/* CSS Document */
+
+body {
+	margin: 0;
+	text-align: center;
+	font-family: 'Merriweather', serif;
+	color:#66bfbf;
+		
+}
+p {
+	line-height: 2;
+}
+h1{
+	margin-top: 50 auto 0 auto;
+	font-family: 'Sacramento', cursive;
+	font-size: 5.625rem;
+}
+h2 {
+	font-size: 2.5rem;
+	color:#66bfbf;
+	font-weight: normal;
+	padding-bottom: 10px;
+}
+h3 {
+	color: #078375;
+}
+hr{
+	border: dotted #BEE3E3 6px;
+	border-bottom: none;
+	width: 4%;
+	margin: 100px auto;
+}
+a:hover {
+	color:#EAF6F6
+}
+a {
+	color: #11999e;
+	maring: 10px 20px;
+	font-family: 'merriweather','serif';
+	text-decoration: none;
+}
+.copyright {
+	color: eaf6f6;
+	font-size: 0.75rem;
+	padding: 20px 0;
+}
+.Top-Container {
+	background-color: #160f30;
+position: relative;
+	padding-top: 100px;
+}
+
+.Middle-Container {
+	margin: 100px 0;
+position:relative;
+}
+.Bottom-Container {
+	color:#160f30;
+}
+.top-cloud {
+	position: absolute;
+	right: 300px;
+	top: 40px;
+}
+.bottom-cloud { 
+position: absolute;
+	left: 300px;
+	bottom: 250px;
+
+}
+.profile-pic {
+	border-radius:50%;
+	
+}
+.intro {
+	width: 30%;
+	margin: auto;
+	line-height: 2;
+}
+.horse-girl {
+	border-radius:50%;
+}
+.skill-row {
+	width: 50%;
+	margin: 100px auto 100px
+		auto;
+	text-align:left;
+	line-height: 2;
+}
+.contact-message{
+	width: 40%;
+	margin: 40px auto 60px;
+	line-height: 2;
+}
+  .btn {
+    backface-visibility: hidden;
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  white-space: nowrap;
+  background: linear-gradient(180deg,#6a82be 19.660561250210048%,#4360a6 41.52803450400493%,#455f9b 74.15000280064974%,#283c6c 100%);
+  border-radius: 8px;
+  border: 0px solid #213e6a;
+  border-width: 0px 0px 5px 0px;
+  padding: 9px 15px 6px 15px;
+  box-shadow: inset 0px 1px 3px rgba(60.064516129032256%,57.9002811168594%,57.9002811168594%,0.4);
+    color: #fff;
+  font-size: initial;
+  font-family:'Merriweather' cursive';
+  font-weight: 900;
+  font-style: normal
+  }
+  .btn > div {
+    color: #999;
+  font-size: 10px;
+  font-family: Helvetica Neue;
+  font-weight: initial;
+  font-style: normal;
+  text-align: center;
+  margin: 0px 0px 0px 0px
+  }
+  .btn > i {
+    color: #fff;
+  font-size: 1em;
+  background: rgba(0%,0%,0%,0.2);
+  border-radius: 100px;
+  border: 0px solid transparent;
+  border-width: 0px 0px 0px 0px;
+  padding: 5px 5px 5px 5px;
+  margin: 0px 0px 0px 10px;
+  position: static;
+  box-shadow: inset 0px 1px 2px rgba(0%,0%,0%,0.4),inset 0px -1px 0px rgba(100%,100%,100%,0.5)
+  }
+  .btn > .ld {
+    font-size: initial
+  }
